@@ -45,9 +45,12 @@ k3d cluster delete
 # create multi-node cluster
 k3d cluster create --servers 3 --agents 1
 k3d cluster list
-# see docker process
+
 kubectl get node
 kubectl get pod
+
+# see docker process
+
 docker ps
 
 ```
